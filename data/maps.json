@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sunbaked_expanse",
+    "name": "Sunbaked Expanse",
+    "kind": "open",
+    "favored_tags": ["cav", "archer"]
+  },
+  {
+    "id": "windswept_steppe",
+    "name": "Windswept Steppe",
+    "kind": "open",
+    "favored_tags": ["cav", "infantry"]
+  },
+  {
+    "id": "basalt_citadel",
+    "name": "Basalt Citadel",
+    "kind": "closed",
+    "favored_tags": ["monk", "siege", "infantry"]
+  },
+  {
+    "id": "sunken_estuary",
+    "name": "Sunken Estuary",
+    "kind": "hybrid",
+    "favored_tags": ["naval", "archer"]
+  }
+]

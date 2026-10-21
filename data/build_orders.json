@@ -1,0 +1,74 @@
+[
+  {
+    "id": "early_skirmish_raid",
+    "name": "Early Skirmish Raid",
+    "map_kinds": ["open", "hybrid"],
+    "beats": ["triple_civic_boom", "ranged_tempo_press", "harbor_control_boom"],
+    "loses_to": ["mobile_flank_sweep", "fortified_fast_tech", "grand_attrition_grind"],
+    "timing": "feudal",
+    "execution_tax": 0.65
+  },
+  {
+    "id": "ranged_tempo_press",
+    "name": "Ranged Tempo Press",
+    "map_kinds": ["open", "hybrid"],
+    "beats": ["mobile_flank_sweep", "grand_attrition_grind", "harbor_control_boom"],
+    "loses_to": ["early_skirmish_raid", "fortified_fast_tech", "sanctuary_siege_push"],
+    "timing": "feudal",
+    "execution_tax": 0.75
+  },
+  {
+    "id": "fortified_fast_tech",
+    "name": "Fortified Fast Tech",
+    "map_kinds": ["open", "closed", "hybrid"],
+    "beats": ["early_skirmish_raid", "ranged_tempo_press", "sanctuary_siege_push"],
+    "loses_to": ["mobile_flank_sweep", "triple_civic_boom", "grand_attrition_grind", "harbor_control_boom"],
+    "timing": "castle",
+    "execution_tax": 0.35
+  },
+  {
+    "id": "mobile_flank_sweep",
+    "name": "Mobile Flank Sweep",
+    "map_kinds": ["open", "hybrid"],
+    "beats": ["early_skirmish_raid", "fortified_fast_tech", "triple_civic_boom"],
+    "loses_to": ["ranged_tempo_press", "grand_attrition_grind", "harbor_control_boom"],
+    "timing": "castle",
+    "execution_tax": 0.55
+  },
+  {
+    "id": "sanctuary_siege_push",
+    "name": "Sanctuary Siege Push",
+    "map_kinds": ["closed"],
+    "beats": ["triple_civic_boom", "ranged_tempo_press"],
+    "loses_to": ["fortified_fast_tech", "grand_attrition_grind"],
+    "timing": "castle",
+    "execution_tax": 0.8
+  },
+  {
+    "id": "harbor_control_boom",
+    "name": "Harbor Control Boom",
+    "map_kinds": ["hybrid"],
+    "beats": ["fortified_fast_tech", "mobile_flank_sweep", "triple_civic_boom"],
+    "loses_to": ["early_skirmish_raid", "ranged_tempo_press"],
+    "timing": "castle",
+    "execution_tax": 0.6
+  },
+  {
+    "id": "triple_civic_boom",
+    "name": "Triple Civic Boom",
+    "map_kinds": ["open", "closed", "hybrid"],
+    "beats": ["fortified_fast_tech", "grand_attrition_grind"],
+    "loses_to": ["early_skirmish_raid", "mobile_flank_sweep", "sanctuary_siege_push", "harbor_control_boom"],
+    "timing": "imp",
+    "execution_tax": 0.45
+  },
+  {
+    "id": "grand_attrition_grind",
+    "name": "Grand Attrition Grind",
+    "map_kinds": ["open", "closed"],
+    "beats": ["early_skirmish_raid", "mobile_flank_sweep", "fortified_fast_tech", "sanctuary_siege_push"],
+    "loses_to": ["ranged_tempo_press", "triple_civic_boom"],
+    "timing": "late",
+    "execution_tax": 0.25
+  }
+]

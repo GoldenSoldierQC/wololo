@@ -1,0 +1,6 @@
+{
+  "name": "Wololo Desk",
+  "description": "Competitive RTS coach simulator with civilization drafts, tactical prep, and best-of-5 match resolution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

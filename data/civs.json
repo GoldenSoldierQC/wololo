@@ -1,0 +1,50 @@
+[
+  {
+    "id": "veldt_wardens",
+    "name": "Veldt Wardens",
+    "tags": ["cav", "infantry"],
+    "power_spike": "feudal"
+  },
+  {
+    "id": "solari_conclave",
+    "name": "Solari Conclave",
+    "tags": ["monk", "siege"],
+    "power_spike": "castle"
+  },
+  {
+    "id": "kestrel_dominion",
+    "name": "Kestrel Dominion",
+    "tags": ["archer", "siege"],
+    "power_spike": "imp"
+  },
+  {
+    "id": "pelagic_league",
+    "name": "Pelagic League",
+    "tags": ["naval", "archer"],
+    "power_spike": "feudal"
+  },
+  {
+    "id": "ironroot_bastion",
+    "name": "Ironroot Bastion",
+    "tags": ["infantry", "siege", "monk"],
+    "power_spike": "late"
+  },
+  {
+    "id": "steppe_striders",
+    "name": "Steppe Striders",
+    "tags": ["cav"],
+    "power_spike": "castle"
+  },
+  {
+    "id": "valorian_march",
+    "name": "Valorian March",
+    "tags": ["archer", "cav", "infantry", "naval"],
+    "power_spike": "castle"
+  },
+  {
+    "id": "thalassian_guild",
+    "name": "Thalassian Guild",
+    "tags": ["naval", "cav", "siege"],
+    "power_spike": "imp"
+  }
+]
